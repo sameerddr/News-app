@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+}
+
+.toggleBtn {
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 0, 36);
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    padding-top: 20px;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: "Kanit", sans-serif;
+}
+
+.navbar li a:hover {
+    border-bottom: 1px solid white;
+    color: bisque;
+}
+
+.home_nav {
+    margin-left: 20px;
+}
+
+.search {
+    color: black;
+    padding: 12px 75px;
+    margin-left: 400px;
+}
+
+.navbar input {
+    padding: 3px 17px;
+    border-radius: 20px;
+}
+
+.imgnav {
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* ------------------------- */
+
+.newsbox {
+    /* display: flex; */
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(44, 116, 179);
+}
+
+.boxes {
+    color: white;
+    /* padding-top: 200px; */
+    width: 550px;
+    background-color: rgb(10, 38, 71);
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+    display: inline-block;
+}
+
+.postimg {
+    display: inline;
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+    /* margin: 0 auto; */
+    /* margin-top: 20px; */
+    /* width: 700px;
+    background-color: purple;
+    height: auto;
+    padding: 10px;
+    /* border-radius: 60px; */
+    /* font-family: "Merriweather", serif;  */
+}
+
+.p1 {
+    display: flex;
+    /* margin-bottom: 25px; */
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    /* margin-top: 20px; */
+    text-transform: capitalize;
+}
+
+.url {
+    /* padding: 5px 10px; */
+    /* background-color: rgb(61, 0, 227); */
+    border: none;
+    border-radius: 5px;
+    /* margin: 10px 0px; */
+}
+
+.url a {
+    text-decoration: none;
+    /* color:; */
+}
+
+.des {
+    margin: 8px 0px;
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.pub {
+    display: flex;
+}
+
+.pub p {
+    font-size: smaller;
+}
+
+
+/* -----------------------------    back to top ------------- */
+
+.top {
+    --offset: 50px;
+    position: absolute;
+    bottom: -80px;
+    margin-right: 10px;
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    background: whitesmoke;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.likebtn {
+    padding: 4px 16px;
+    background-color: brown;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.remove {
+    padding: 6px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    margin: 0px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.post {
+    padding: 4px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+}

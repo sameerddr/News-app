@@ -1,0 +1,14 @@
+ Steps to make the app
+ 1 - Like and comment section
+ 2 - Remove any article 
+ 3 - Minimum 4 tabs = Headlines , About , Contact us etc
+ 4 - Dark and light Mode 
+ 5 - Footer Display The current Time
+ 6 - Search Feature
+ 7 - Responsive
+
+  https://newsapi.org/v2/everything?q=tesla&from=2022-09-16&sortBy=publishedAt&apiKey=833ae0071f2345f085aa7a65dcd4e2d5
+
+
+  1 -- Araay map = 2 key appned (like and dislike =0)
+  2 - onclick = array()

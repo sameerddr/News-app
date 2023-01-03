@@ -1,0 +1,15 @@
+.services {
+    padding-top: 200px;
+}
+
+.ser {
+    font-size: 70px;
+    text-transform: capitalize;
+    color: brown;
+}
+
+.para {
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
