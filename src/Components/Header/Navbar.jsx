@@ -6,7 +6,7 @@ function Navbar(props) {
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">News-Crap</Link>
+          <Link to="/">Speedy-News</Link>
         </li>
         <li className="home_nav">
           <Link to="/">Home</Link>
